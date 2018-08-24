@@ -1,0 +1,71 @@
+body,.page-container{
+    height:100%;
+}
+.page{
+    position: absolute;
+    width:inherit;
+}
+.md-app{
+    min-height:100% !important;
+}
+.md-app-drawer,.md-app-drawer .md-list{
+    background-color: #e8f0fe !important;
+}
+.md-app-container{
+    height:calc(100vh - 68px);
+    overflow: auto;
+}
+.flx-layout{
+    display: flex;
+}
+.flx-col{
+    flex-direction: column;
+}
+.project-drawer > ul{
+    flex: auto 1 1;
+}
+.vue-heading{
+    color: rgb(106, 139, 173);
+    font-size: 18px;
+    margin: 16px;
+    font-weight: 400;
+}
+.banner-bg{
+    display: flex;
+    align-items: center;
+    height:25vh;
+}
+.banner-title{
+    flex: 1;
+    text-align: center ;
+    color:white;
+    font-weight: 400;
+}
+.text-right{
+    text-align: right;
+}
+.code-editor-section{
+    align-items: center;
+}
+.code-viewpane{
+    position: relative;
+    background:#f1f1f1;
+    padding:1rem;
+    border-radius: 3px;
+}
+.code-viewpane pre{
+    font-family: Roboto;
+}
+.code-viewpane > .md-icon-button {
+    position: absolute;
+    right:5px;
+    top:5px;
+}
+.hero-section{
+    height:100vh;
+    background: url('../assets/images/hero-banner.jpg') no-repeat 0 0 / cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
